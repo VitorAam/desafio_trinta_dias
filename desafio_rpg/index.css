@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(#5167C1 80%, #6A3CC6);
+}
+
+header {
+    height: 15vh;
+    width: 100%;
+    background-color:rgba(128, 128, 128, 0.349);
+    background-size: cover;
+    background-position: top-right;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100px;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(81, 60, 158, 0.952);
+    color: white;
+    border-radius: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: orange;
+    transition-duration: 1s;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+h3 {
+    margin-left: 8vw;
+    font-size: 1.3em;
+    margin-top: 3vh;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+form > .races {
+    display: block;
+    width: 100%;
+    height: 23.9vh;
+    background-color: black;
+    text-align: center;
+    margin-top: 2vh;
+    border-radius: 40px;
+    box-shadow: 1px 1px 7px 5px rgba(255, 255, 255, 0.329);
+}
+
+.races:hover {
+    box-shadow: 1px 1px 7px 5px gold;
+    transition-duration: 2s;
+}
+
+label, input {
+    margin: 20px;
+    color: rgb(173, 0, 0);
+    font-size: 1.2em;
+    background-color: rgba(0, 0, 0, 0.322);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#orc_c {
+    background-image: url(https://wallpaperaccess.com/full/5617468.jpg);
+    background-size: cover;
+}
+
+#human_c {
+    background-image: url(https://wallpapercave.com/wp/wp2722627.jpg);
+    background-size: cover;
+}
+
+#elf_c {
+    background-image: url(https://wallpaperaccess.com/full/124842.jpg);
+    background-size: cover;
+}
+
+form > .classes {
+    display: block;
+    width: 100%;
+    height: 23.9vh;
+    background-color: black;
+    text-align: center;
+    margin-top: 2vh;
+    border-radius: 40px;
+    box-shadow: 1px 1px 7px 5px rgba(255, 255, 255, 0.329);
+}
+
+.classes:hover {
+    box-shadow: 1px 1px 7px 5px gold;
+    transition-duration: 2s;
+}
+
+#warrior_c {
+    background-image: url(https://images2.alphacoders.com/113/thumb-1920-11362.png);
+    background-size: cover;
+}
+
+#paladin_c {
+    background-image: url(https://wallpaperaccess.com/full/3042910.jpg);
+    background-size: cover;
+}
+
+#rogue_c {
+    background-image: url(https://speakintime.com/wp-content/uploads/2016/04/show-me-your-champion.jpg);
+    background-size: cover;
+}
